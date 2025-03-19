@@ -1,0 +1,151 @@
+/* General Styling */
+body {
+   font-family: 'Inter', sans-serif;
+   background-color: #f9fafb;
+}
+
+.dashboard-title {
+   font-size: 36px;
+   font-weight: 700;
+   color: #1a1a1a;
+   margin-bottom: 12px;
+   border-bottom: 2px solid #e5e7eb;
+   padding-bottom: 8px;
+   display: flex;
+   align-items: center;
+   gap: 12px;
+}
+
+.dashboard-title .icon {
+   font-size: 32px;
+   color: #3b82f6;
+}
+
+.teacher-dashboard {
+   padding: 20px;
+   margin: 0 auto;
+   max-width: 1100px;
+}
+
+/* Dashboard Title */
+.dashboard-title {
+   font-size: 32px;
+   font-weight: 600;
+   color: #1a1a1a;
+   margin-bottom: 8px;
+}
+
+.dashboard-subtitle {
+   font-size: 16px;
+   color: #6b7280;
+   margin-bottom: 24px;
+}
+
+/* Assignment Reviews */
+.assignment-reviews {
+   background: #ffffff;
+   padding: 24px;
+   border-radius: 12px;
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+   margin-bottom: 24px;
+}
+
+.assignment-table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 16px;
+}
+
+.assignment-table th,
+.assignment-table td {
+   padding: 12px;
+   border-bottom: 1px solid #e5e7eb;
+   text-align: left;
+}
+
+.assignment-table th {
+   background-color: #f3f4f6;
+   font-weight: 600;
+}
+
+.assignment-table input {
+   width: 70px;
+   padding: 8px;
+   border: 1px solid #d1d5db;
+   border-radius: 8px;
+   text-align: center;
+   transition: border-color 0.2s ease;
+}
+
+.assignment-table input:focus {
+   border-color: #3b82f6;
+   outline: none;
+}
+
+.score-button {
+   padding: 8px 16px;
+   background-color: #3b82f6;
+   color: #ffffff;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+}
+
+.score-button:hover {
+   background-color: #2563eb;
+}
+
+/* Bottom Section */
+.bottom-section {
+   display: flex;
+   gap: 20px;
+}
+
+/* Class Performance */
+.class-performance,
+.recent-feedback {
+   flex: 1;
+   background: #ffffff;
+   padding: 24px;
+   border-radius: 12px;
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.performance-placeholder {
+   background-color: #f3f4f6;
+   padding: 32px;
+   border-radius: 8px;
+   color: #9ca3af;
+   text-align: center;
+}
+
+/* AI Feedback */
+.feedback-content {
+   background-color: #f3f4f6;
+   padding: 16px;
+   border-radius: 8px;
+}
+
+.feedback-content ul {
+   padding-left: 20px;
+}
+
+.feedback-content li {
+   margin-bottom: 6px;
+   color: #6b7280;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+   .bottom-section {
+      flex-direction: column;
+   }
+
+   .assignment-table th,
+   .assignment-table td {
+      padding: 8px;
+   }
+}
+
+/* Dashboard Title */

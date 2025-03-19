@@ -1,0 +1,60 @@
+/* Routes.css */
+
+/* Base styling for the app container */
+.app-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   min-height: 100vh;
+   background-color: #f9fafb;
+   /* Light gray background */
+   color: #1f2937;
+   /* Dark gray text */
+   font-family: 'Arial', sans-serif;
+}
+
+/* Page container */
+.page-container {
+   width: 100%;
+   max-width: 1200px;
+   padding: 20px;
+}
+
+/* Styling for links */
+a {
+   text-decoration: none;
+   color: #2563eb;
+   /* Blue links */
+   transition: color 0.3s ease;
+}
+
+a:hover {
+   color: #1d4ed8;
+   /* Darker blue on hover */
+}
+
+/* Button styling */
+button {
+   background-color: #2563eb;
+   color: #ffffff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 8px;
+   font-size: 16px;
+   font-weight: 500;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+button:hover {
+   background-color: #1d4ed8;
+}
+
+/* Error message for unknown routes */
+.error-message {
+   color: #dc2626;
+   font-size: 18px;
+   font-weight: bold;
+   margin-top: 20px;
+}
