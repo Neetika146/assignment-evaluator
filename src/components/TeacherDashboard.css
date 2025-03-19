@@ -1,5 +1,5 @@
 /* General Styling */
-body {
+/*body {
    font-family: 'Inter', sans-serif;
    background-color: #f9fafb;
 }
@@ -25,10 +25,10 @@ body {
    padding: 20px;
    margin: 0 auto;
    max-width: 1100px;
-}
+}*/
 
 /* Dashboard Title */
-.dashboard-title {
+/*.dashboard-title {
    font-size: 32px;
    font-weight: 600;
    color: #1a1a1a;
@@ -39,10 +39,10 @@ body {
    font-size: 16px;
    color: #6b7280;
    margin-bottom: 24px;
-}
+}*/
 
 /* Assignment Reviews */
-.assignment-reviews {
+/*.assignment-reviews {
    background: #ffffff;
    padding: 24px;
    border-radius: 12px;
@@ -94,16 +94,16 @@ body {
 
 .score-button:hover {
    background-color: #2563eb;
-}
+}*/
 
 /* Bottom Section */
-.bottom-section {
+/*.bottom-section {
    display: flex;
    gap: 20px;
-}
+}*/
 
 /* Class Performance */
-.class-performance,
+/*.class-performance,
 .recent-feedback {
    flex: 1;
    background: #ffffff;
@@ -118,10 +118,10 @@ body {
    border-radius: 8px;
    color: #9ca3af;
    text-align: center;
-}
+}*/
 
 /* AI Feedback */
-.feedback-content {
+/*.feedback-content {
    background-color: #f3f4f6;
    padding: 16px;
    border-radius: 8px;
@@ -134,10 +134,10 @@ body {
 .feedback-content li {
    margin-bottom: 6px;
    color: #6b7280;
-}
+}*/
 
 /* Mobile Responsive */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
    .bottom-section {
       flex-direction: column;
    }
@@ -146,6 +146,163 @@ body {
    .assignment-table td {
       padding: 8px;
    }
-}
+}*/
 
 /* Dashboard Title */
+
+/*line graph css*/
+/*.teacher-dashboard {
+   padding: 24px;
+   font-family: 'Inter', sans-serif;
+}
+
+.dashboard-title {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 8px;
+}
+
+.dashboard-subtitle {
+   color: #6b7280;
+   margin-bottom: 24px;
+}
+
+.assignment-reviews {
+   background: #ffffff;
+   padding: 24px;
+   border-radius: 12px;
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+   margin-bottom: 24px;
+}
+
+.assignment-table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 12px;
+}
+
+.assignment-table th,
+.assignment-table td {
+   padding: 12px;
+   border: 1px solid #e5e7eb;
+   text-align: left;
+}
+
+.assignment-table th {
+   background: #f9fafb;
+   font-weight: 600;
+}
+
+.score-button {
+   background: #3b82f6;
+   color: white;
+   border: none;
+   padding: 6px 12px;
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+.dashboard-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 24px;
+}
+
+.dashboard-card {
+   background: #ffffff;
+   padding: 24px;
+   border-radius: 12px;
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-card h3 {
+   font-size: 20px;
+   margin-bottom: 8px;
+}
+
+.dashboard-card p {
+   color: #6b7280;
+   margin-bottom: 12px;
+}
+
+.feedback-list {
+   list-style-type: disc;
+   padding-left: 20px;
+   color: #374151;
+}*/
+
+/*score buttoon css*/
+.teacher-dashboard {
+   padding: 24px;
+   font-family: 'Inter', sans-serif;
+   background: #f9fafb;
+}
+
+.dashboard-title {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 8px;
+}
+
+.dashboard-subtitle {
+   color: #6b7280;
+   margin-bottom: 24px;
+}
+
+.assignment-reviews {
+   background: #ffffff;
+   padding: 24px;
+   border-radius: 12px;
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+   margin-bottom: 24px;
+}
+
+.assignment-table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 12px;
+}
+
+.assignment-table th,
+.assignment-table td {
+   padding: 12px;
+   border: 1px solid #e5e7eb;
+   text-align: left;
+}
+
+.assignment-table th {
+   background: #f9fafb;
+   font-weight: 600;
+}
+
+.score-input {
+   width: 60px;
+   padding: 4px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+}
+
+.dashboard-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 24px;
+   margin-top: 20px;
+}
+
+.dashboard-card {
+   background: #ffffff;
+   padding: 24px;
+   border-radius: 12px;
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-card h3 {
+   font-size: 20px;
+   margin-bottom: 8px;
+}
+
+.feedback-list {
+   list-style-type: disc;
+   padding-left: 20px;
+   color: #374151;
+}
