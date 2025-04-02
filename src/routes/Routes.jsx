@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import Home from '../components/Home/Home';
 import StudentDashboard from '../components/Dashboard/StudentDashboard';
 import AssignmentUpload from '../components/Upload/AssignmentUpload';
+import AssignmentUploadhandwritten from '../components/Upload/AssignmentUploadhandwritten';
+import AssignmentType from '../components/Upload/AssignmentType';
 import TeacherDashboard from '../components/TeacherDashboard'; // ✅ Import TeacherDashboard
 import './Routes.css';
 import '../components/Dashboard/Dashboard.css';
@@ -20,6 +22,12 @@ const AppRoutes = () => {
 
                   {/* Assignment Upload */}
                   <Route path="/upload-assignment" element={<AssignmentUpload />} />
+
+                  {/* Assignment Upload handwritten*/}
+                  <Route path="/upload-assignment-handwritten" element={<AssignmentUploadhandwritten />} />
+
+                  {/* Assignment Type Choose */}
+                  <Route path="/upload-assignment-type" element={<AssignmentType />} />
 
                   {/* ✅ Teacher Dashboard */}
                   <Route path="/teacher-dashboard" element={<TeacherDashboard />} />

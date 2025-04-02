@@ -1,0 +1,78 @@
+/* Container Styling */
+.assignment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0f4ff, #e0f7fa);
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .assignment-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #1e3a8a;
+    margin-bottom: 3rem;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Button Shared Styles */
+  .assignment-button {
+    width: 320px;
+    padding: 16px 32px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Typed Assignment Button */
+  .typed {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .typed:hover {
+    background-color: #2563eb;
+    transform: scale(1.08);
+  }
+  
+  /* Handwritten Assignment Button */
+  .handwritten {
+    background-color: #10b981;
+    color: white;
+  }
+  
+  .handwritten:hover {
+    background-color: #059669;
+    transform: scale(1.08);
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .assignment-title {
+      font-size: 2.5rem;
+    }
+  
+    .assignment-button {
+      width: 250px;
+      font-size: 1.2rem;
+    }
+  }

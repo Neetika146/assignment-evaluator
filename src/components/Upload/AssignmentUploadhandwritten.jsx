@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { CloudUpload, FileText, FileCheck } from "lucide-react";
 
-const AssignmentUpload = () => {
+const AssignmentUploadHandwritten = () => {
   const [file, setFile] = useState(null);
   const [report, setReport] = useState("");
 
@@ -16,7 +16,7 @@ const AssignmentUpload = () => {
 
     const formData = new FormData();
     formData.append("file", file);
-    formData.append("type", "typed");
+    formData.append("type", "handwritten");
 
     try {
       await axios.post("http://localhost:5000/upload", formData);
@@ -33,7 +33,7 @@ const AssignmentUpload = () => {
   return (
     <div className="p-8 max-w-2xl mx-auto bg-white shadow-xl rounded-xl border border-gray-200">
       <h1 className="text-3xl font-bold mb-6 text-gray-800 flex items-center">
-        <CloudUpload className="w-8 h-8 mr-2 text-blue-500" /> Upload Typed Assignment
+        <CloudUpload className="w-8 h-8 mr-2 text-blue-500" /> Upload Handwritten Assignment
       </h1>
 
       <div className="mb-4">
@@ -72,4 +72,4 @@ const AssignmentUpload = () => {
   );
 };
 
-export default AssignmentUpload;
+export default AssignmentUploadHandwritten;

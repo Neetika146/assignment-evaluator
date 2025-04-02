@@ -1,0 +1,14 @@
+2025-04-02 19:13:12,699 - assignment_processor - ERROR - Gemini API key is required but not provided
+2025-04-02 19:13:12,757 - assignment_processor - ERROR - Error initializing Gemini model: API key is required for Gemini
+2025-04-02 19:21:04,321 - assignment_processor - INFO - Gemini model initialized: gemini-2.0-flash
+2025-04-02 19:21:04,321 - assignment_processor - INFO - Initialized AssignmentProcessor with base path: C:\repo\backend\uploads
+2025-04-02 19:21:04,323 - assignment_processor - INFO - Output directory: C:\repo\backend\results
+2025-04-02 19:21:06,352 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 19:21:06,535 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 19:21:06,611 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 19:21:11,952 - assignment_processor - INFO - Gemini model initialized: gemini-2.0-flash
+2025-04-02 19:21:11,952 - assignment_processor - INFO - Initialized AssignmentProcessor with base path: C:\repo\backend\uploads
+2025-04-02 19:21:11,954 - assignment_processor - INFO - Output directory: C:\repo\backend\results
+2025-04-02 19:21:11,985 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 19:21:12,086 - werkzeug - INFO -  * Debugger PIN: 235-346-362
