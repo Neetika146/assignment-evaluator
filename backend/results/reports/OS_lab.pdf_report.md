@@ -1,19 +1,19 @@
 # Assignment Evaluation Report
 
-## Document: ASSIGNMENT2.pdf
-**Type:** handwritten
-**Date:** 2025-04-01
+## Document: OS_lab.pdf
+Type: typed
+Date: 2025-04-03
 
-## Overall Grade: 0/100
+## Overall Grade: 75/100
 
 ## Summary
-Detailed evaluation could not be automatically extracted.
+Detailed evaluation summary could not be automatically extracted.
 
 ## Text Analysis
-- Word Count: 1090
-- Sentence Count: 65
-- Average Sentence Length: 16.8 words
-- Readability Score: 0.0/100
+- Word Count: 18632
+- Sentence Count: 1564
+- Average Sentence Length: 11.9 words
+- Readability Score: 82.1/100
 
 ## Strengths
 - No specific strengths identified.

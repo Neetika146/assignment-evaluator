@@ -1,4 +1,4 @@
-.assignment-upload-container {
+/* .assignment-upload-container {
     padding: 2rem;
     max-width: 40rem;
     margin: 2rem auto;
@@ -12,19 +12,19 @@
  .assignment-upload-container:hover {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
  }
- 
+  */
  /* Heading styling */
- .assignment-upload-heading {
+ /* .assignment-upload-heading {
     font-size: 2rem;
     font-weight: bold;
     color: #1f2937;
     display: flex;
     align-items: center;
     margin-bottom: 1.5rem;
- }
+ } */
  
  /* File input styling */
- .file-upload-label {
+ /* .file-upload-label {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,16 +40,16 @@
  
  .file-upload-label:hover {
     border-color: #3b82f6;
- }
+ } */
  
  /* File name text */
- .file-name {
+ /* .file-name {
     font-weight: 500;
     color: #374151;
- }
+ }*/
  
- /* Upload button styling */
- .upload-button {
+ /*Upload button styling */
+ /* .upload-button {
     width: 100%;
     background-color: #3b82f6;
     color: #ffffff;
@@ -66,36 +66,36 @@
  .upload-button:hover {
     background-color: #2563eb;
  }
- 
+  */
  /* Extracted text section */
- .extracted-text-section {
+ /* .extracted-text-section {
     margin-top: 1.5rem;
     padding: 1rem;
     background-color: #f3f4f6;
     border: 1px solid #e5e7eb;
     border-radius: 12px;
  }
- 
+  */
  /* Extracted text title */
- .extracted-text-title {
+ /* .extracted-text-title {
     font-weight: 600;
     color: #374151;
     display: flex;
     align-items: center;
     margin-bottom: 0.5rem;
  }
- 
+  */
  /* Extracted text content */
- .extracted-text-content {
+ /* .extracted-text-content {
     background-color: #e5e7eb;
     padding: 0.75rem;
     border-radius: 8px;
     color: #4b5563;
     font-size: 0.95rem;
- }
+ } */
  
  /* Generate PDF button */
- .generate-pdf-button {
+ /* .generate-pdf-button {
     width: 100%;
     background-color: #10b981;
     color: #ffffff;
@@ -120,4 +120,30 @@
     margin-right: 0.5rem;
     width: 20px;
     height: 20px;
+ } */
+ .form-input {
+   width: 100%;
+   padding: 0.75rem;
+   border: 1px solid #d1d5db;
+   border-radius: 8px;
+   background-color: #f9fafb;
+   color: #374151;
+   font-size: 1rem;
+   margin-bottom: 1rem;
+   transition: border-color 0.3s ease;
  }
+ 
+ .form-input:focus {
+   outline: none;
+   border-color: #3b82f6;
+   background-color: #fff;
+ }
+ 
+ .assignment-upload-heading {
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: #111827;
+   text-align: center;
+   margin-bottom: 1.5rem;
+ }
+ 
