@@ -57,7 +57,7 @@
 #             "max_workers": 4,  # Number of parallel workers for processing
 #             "llm_provider": "gemini",  # Only Gemini is supported
 #             "model_name": "gemini-1.5-flash",  # Model name for Gemini (using a model that exists)
-#             "api_key": "AIzaSyCnAGC37Feq2-00HINvP8rr40ScK4rt_74",  # Will be updated from config
+#             "api_key": "api_key",  # Will be updated from config
 #             "cache_llm_results": True,  # Whether to cache LLM results to save computation time
 #             "cache_dir": ".cache",  # Directory for caching LLM results
 #             "temperature": 0.3,  # Temperature for LLM generation
