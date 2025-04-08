@@ -229,7 +229,7 @@
 #     output_dir=RESULTS_FOLDER,
 #     config={
 #         "llm_provider": "gemini",
-#         "api_key": "AIzaSyCnAGC37Feq2-00HINvP8rr40ScK4rt_74",
+#         "api_key": "A",
 #         "cache_llm_results": True,
 #         "cache_dir": os.path.join(BASE_PATH, '.cache')
 #     }
@@ -395,7 +395,7 @@ try:
         # GEMINI_API_KEY = "A"
 except Exception as e:
     print(f"Error loading client secrets: {e}")
-    # GEMINI_API_KEY = "AIzaSyCnAGC37Feq2-00HINvP8rr40ScK4rt_74"
+    # GEMINI_API_KEY = "A"
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = os.path.join(BASE_PATH, 'assignment-evaluator-454818-44816401150c.json')
 
