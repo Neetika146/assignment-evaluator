@@ -819,7 +819,7 @@ class AssignmentProcessor:
             "max_workers": 4,  # Number of parallel workers for processing
             "llm_provider": "gemini",  # Only Gemini is supported
             "model_name": "gemini-2.0-flash",  # Model name for Gemini (using a model that exists)
-            "api_key": "AIzaSyCnAGC37Feq2-00HINvP8rr40ScK4rt_74",  # Will be updated from config
+            "api_key": "A",  # Will be updated from config
             "evaluation_criteria": {
                 "content": 40,  # Relevance, accuracy, and depth (weight: 40%)
                 "organization": 20,  # Logical flow, clear structure (weight: 20%)
