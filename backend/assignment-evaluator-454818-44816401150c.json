@@ -1,13 +1,13 @@
 {
   "type": "service_account",
   "project_id": "assignment-evaluator-454818",
-  "private_key_id": "44816401150c86a7840a50676072b9ddf91fb650",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDAVWbS1QZKPWWC\nCyrXGfBZDv5lGsVPdH4ueuV7dSlXgco8X9gnHMHqMrNslz1NLvL6hCIqJwuv/qE1\n+TVLGCdvrugN6/FTcq9buF8ycZ7svmJdjP0WDvllMIqTe2qtw8dI6few+g5QAGgS\nSRrh8vQE2kh/MQSVIwra2P2w+IO8O/nRFUbTwtGsZH+y55qXf7RZ/Z4K2poCQwlq\nB7UnvY9216BKrpcshwkgpJw+Pf3dQYF7ThqGDGikS4UgRg/PhnY8BZ/JEtim3ckV\nmQVYBrf6IlvIkXWHYnassjreJrITutcttFZEcBUMpeCmW0yMoDs8U9bp+NrzcJvK\nAokqyWadAgMBAAECggEAOMGa57FkO0k16LO57yLg6a8ChDxrqGBEkhvDF3UB/6g1\n0S4pX5VdZeqTRwK0XM/zdNjEKjM+gC+ATCifwOq+THdNVDphixIHTGYydXTRBKTD\n6z5dOwKtNt6lrhLX7rIc31fnt2p7CcGs9GRtUer7dmkhxqLk6sud+unYpz4Wxddb\n2qTljsu7abzkvx5WPThsPfNFQ8GIf3ph6otq+sWsU5Owa0xHfsdhTjvJd9F3iVW6\nSJ5Ion2oTOeHaCzHRVwyIwJwUrrEIk+zcg5HAkyQbnpNmXnOrsnOi0vM09Evk4RG\n7Q6igAngpIvUSOhoY2yeCmbRRQ3fjxqGv0I0SnG1QwKBgQDq8yGa/K2fuOV4dPQn\nnRawLjjPZ17ClNukUmeeTvRAaNIFkqhYPQ7NsdfnhVfQHRJslcB9DlQ0D6bSDWNb\nvSZOW9h/6C61GGhdxEKzjZ41r9+qmQsyzp9TKafrX+dERtbfIDN6Y7sQ3rKYgGr+\n0f6qDAsHlXIImGavf+SPvHWXqwKBgQDRkNDLl/NxuLgbbAB/CVU9j/Xta9gTHRG0\nn0FlnKymKJhkKX2dWUM+IbY6AXxnCzO2i1WeW4bz48wVIcZgaT6xOMIhfAygZSQc\n+hF6ksWA5/98bo+fssCy3MAkHrwhhnG9WtIe/OP/zIuJsFgGrJfRhVyLUcIYoBiL\noMZX/RcS1wKBgEETJnOvGMfshmJewmFWeTpDEykfEHgEkvFogZqvc6eDYOh6PnZy\nMu92Gr7dh/z0kG3S7IW2ukvRKft0CdkXAs0hU03aGVW/dOjDu1XQG8ny9Jhj214v\nLKH0H7Zp0bxvgoQ6fwefJ+j8RatHplr9/vNKcqOfGP6Yd5iUa9ID+O4RAoGATLI0\nSB6vYPJapuaK8/NFeAdk2OR8KtqbrUAPnhGN+i2nQBkTOO//NRD/cRE0Jz4pSeiK\niC81H7NB8IXw5T3/TLraCYkt0dHSOqymkvZ+Q+QkU7Te6XJxJcS2qUF6Vsauf79q\nYR7qjqacduLMBH1L/slRCkf8wihtc0R+8prUw/cCgYANAXfa9XG8AW4zmzZ6BJTM\nJQ5k/2mseHILGkxQRzqnzL4WcgdxamDibBS4AkU8VaZCZcymRCvfb0KSQ4+9+q69\nJv8AcyquUkWTjQtOkiM978xTCPnie/insmplfvy7S/j5DCjQBpELr3axBmbBk8LD\n4PSCcXieuRNo9OIilpdv2g==\n-----END PRIVATE KEY-----\n",
-  "client_email": "neetika@assignment-evaluator-454818.iam.gserviceaccount.com",
-  "client_id": "115462965921471700584",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/neetika%40assignment-evaluator-454818.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+  "private_key_id": "",
+  "private_key": "-----BEGIN PRIVATE KEY-----\----END PRIVATE KEY-----\n",
+  "client_email": "",
+  "client_id": "",
+  "auth_uri": "",
+  "token_uri": "",
+  "auth_provider_x509_cert_url": "",
+  "client_x509_cert_url": "",
+  "universe_domain": ""
 }
