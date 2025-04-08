@@ -22,7 +22,7 @@
 #         GEMINI_API_KEY = secrets.get('gemini_api_key', '')
 # except Exception as e:
 #     print(f"Error loading client secrets: {e}")
-#     GEMINI_API_KEY = "AIzaSyCnAGC37Feq2-00HINvP8rr40ScK4rt_74"
+#     GEMINI_API_KEY = ""
 
 # # Configure app
 # app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -42,7 +42,7 @@
 #     output_dir=RESULTS_FOLDER,
 #     config={
 #         "llm_provider": "gemini",
-#         "api_key": "AIzaSyCnAGC37Feq2-00HINvP8rr40ScK4rt_74",
+#         "api_key": "",
 #         "cache_llm_results": True,
 #         "cache_dir": os.path.join(BASE_PATH, '.cache')
 #     }
@@ -384,7 +384,7 @@ ALLOWED_EXTENSIONS = {'pdf'}
 
 # Load API Key
 CLIENT_SECRET_PATH = os.path.join(BASE_PATH, 'client_secrets.json')
-GEMINI_API_KEY = "AIzaSyCnAGC37Feq2-00HINvP8rr40ScK4rt_74"
+GEMINI_API_KEY = "A"
 try:
     if os.path.exists(CLIENT_SECRET_PATH):
         with open(CLIENT_SECRET_PATH) as f:
@@ -392,7 +392,7 @@ try:
             GEMINI_API_KEY = secrets.get('gemini_api_key', '')
     else:
         print("Client secrets file not found. Using default API key.")
-        # GEMINI_API_KEY = "AIzaSyCnAGC37Feq2-00HINvP8rr40ScK4rt_74"
+        # GEMINI_API_KEY = "A"
 except Exception as e:
     print(f"Error loading client secrets: {e}")
     # GEMINI_API_KEY = "AIzaSyCnAGC37Feq2-00HINvP8rr40ScK4rt_74"
@@ -416,7 +416,7 @@ processor = AssignmentProcessor(
     config={
         "llm_provider": "gemini",
         "model_name": "gemini-2.0-flash",
-        "api_key": "AIzaSyCnAGC37Feq2-00HINvP8rr40ScK4rt_74",
+        "api_key": "A",
         "max_tokens": 3000,
         "cache_llm_results": True,
         "cache_dir": os.path.join(BASE_PATH, '.cache')
